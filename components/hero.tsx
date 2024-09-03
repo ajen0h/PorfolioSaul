@@ -9,7 +9,7 @@ export default function Hero() {
     return (
         <article className='bg-[#f7f7f7] h-full w-full p-5 shadow-[4px_6px_0_#170f06] border border-[#170f06] grid grid-cols-1 sm:grid-cols-[250px_1fr] gap-4 justify-end '>
             <div className='w-full h-full relative border border-[#170f06]'>
-                <Image src={"/perfil.jpg"} alt='' height={1000} width={1000} className='object-cover w-full h-full' />
+                <Image src={"/perfil.jpg"} alt='' height={1000} width={1000} className='object-cover w-full h-full ' />
             </div>
             <section id="Sobre mi">
                 <div className='flex flex-col gap-5'>
